@@ -1,0 +1,137 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-2LG7EUK",
+    "children" : [ {
+      "name" : "DESKTOP-2LG7EUK-6976-playwright-worker-2",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "f54f3285964b91e7",
+        "parentUid" : "1c2e81e7b20701aaa32e3c7309440499",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613467961,
+          "stop" : 1708613472437,
+          "duration" : 4476
+        },
+        "flaky" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "1c2e81e7b20701aaa32e3c7309440499"
+    }, {
+      "name" : "DESKTOP-2LG7EUK-6976-playwright-worker-1",
+      "children" : [ {
+        "name" : "get started link",
+        "uid" : "51fcbff3b75385ed",
+        "parentUid" : "a8fd39fd05e83a33e855f698cb9ee5ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613464745,
+          "stop" : 1708613467196,
+          "duration" : 2451
+        },
+        "flaky" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "has title",
+        "uid" : "3313f39550eed803",
+        "parentUid" : "a8fd39fd05e83a33e855f698cb9ee5ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613468142,
+          "stop" : 1708613470897,
+          "duration" : 2755
+        },
+        "flaky" : false,
+        "parameters" : [ "webkit" ]
+      }, {
+        "name" : "basic test",
+        "uid" : "ac6655fd48e782c",
+        "parentUid" : "a8fd39fd05e83a33e855f698cb9ee5ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613470903,
+          "stop" : 1708613471470,
+          "duration" : 567
+        },
+        "flaky" : false,
+        "parameters" : [ "webkit" ]
+      } ],
+      "uid" : "a8fd39fd05e83a33e855f698cb9ee5ea"
+    }, {
+      "name" : "DESKTOP-2LG7EUK-6976-playwright-worker-0",
+      "children" : [ {
+        "name" : "has title",
+        "uid" : "136b3483e7198a2",
+        "parentUid" : "acd25b78402f1cad20234a8732dc8631",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613464750,
+          "stop" : 1708613466842,
+          "duration" : 2092
+        },
+        "flaky" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "get started link",
+        "uid" : "525c6202be490efe",
+        "parentUid" : "acd25b78402f1cad20234a8732dc8631",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613467781,
+          "stop" : 1708613473353,
+          "duration" : 5572
+        },
+        "flaky" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "acd25b78402f1cad20234a8732dc8631"
+    }, {
+      "name" : "DESKTOP-2LG7EUK-6976-playwright-worker-3",
+      "children" : [ {
+        "name" : "has title",
+        "uid" : "6cd44548a214db8b",
+        "parentUid" : "eb0531f3f9d41802b967f5e209239287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613464758,
+          "stop" : 1708613469098,
+          "duration" : 4340
+        },
+        "flaky" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "get started link",
+        "uid" : "13587ab42367ad13",
+        "parentUid" : "eb0531f3f9d41802b967f5e209239287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613471341,
+          "stop" : 1708613474364,
+          "duration" : 3023
+        },
+        "flaky" : false,
+        "parameters" : [ "webkit" ]
+      } ],
+      "uid" : "eb0531f3f9d41802b967f5e209239287"
+    }, {
+      "name" : "DESKTOP-2LG7EUK-20504-playwright-worker-0",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "d04423b72f7a15a7",
+        "parentUid" : "db38006ef53e41c76ee2d51039519595",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708613727091,
+          "stop" : 1708613728002,
+          "duration" : 911
+        },
+        "flaky" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "db38006ef53e41c76ee2d51039519595"
+    } ],
+    "uid" : "2b2600cb35a1bca1c18842005354fc0d"
+  } ]
+}

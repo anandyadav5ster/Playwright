@@ -1,0 +1,22 @@
+. command to run all test
+npx playwright test
+
+. command to run specific test
+npx playwright test test1.spec.js 
+
+. command to run on specific browser
+nox playwright test test1.spec.js --project="chromium"
+
+. install allure report
+npm -i D @playwright/test allure-playwright
+
+. To run the test case with allure report
+npx playwright test --reporter=allure-playwright
+. Generate allure report
+allure generate allure-results -o allure-report --clean
+
+. Open report
+allure open allure-report
+
+. Stop automatically open report
+reporter: [ ['html', { open: 'never' }] ],

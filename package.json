@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test1.js",
+  "scripts": {
+    "e2e":"npm run clean && playwright test c e2e.config.js --reporter=line,./my-awesome-reporter.js,allure-playwright",
+    "allure-report":"npx allure generate ./allure-results && allure open"
+ 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19",
+    "allure-playwright": "^2.12.2"
+  }
+}
