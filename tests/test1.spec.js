@@ -1,7 +1,16 @@
 import {test,expect} from '@playwright/test'
+import { log, table } from 'console'
 const locatorspage = require('../pages/locatorsPage')
 const generic_function = require('../generic_functions')
 const cfg = JSON.parse(JSON.stringify(require('../config.json')))
+import path from 'path'
+import readXlsxFile from 'read-excel-file';
+const filepath = path.join(__dirname,'../data.csv');
+const xlsxFile = require('read-excel-file/node');
+import fs from 'fs';
+import { parse } from 'csv-parse'
+const records=null;
+
 
 test.beforeEach(async({page})=>{
 	// const page = browser.newContext()
@@ -9,6 +18,9 @@ test.beforeEach(async({page})=>{
 	console.log("Before all")
 	
 })
+
+
+
 
 test('assertion title', async({page})=>{
 	
@@ -39,11 +51,20 @@ test('login', async({page})=>{
 	// await elementpassword.fill('secret_sauce')
 	await elementpassword.fill(cfg.password)
 	// await page.click(lop.login_btn)
+	await elementpassword.highlight()
+	await page.screenshot({
+		path:'.\\screenshots\\test1.png',
+		mask:[elementusername],
+		omitBackground:true,
+		maskColor:'#FFFFCC'
+	})
 	await gf.click_function(lop.login_btn)
 	
 	
-	await page.screenshot({path:'.\\screenshots\\username.png'})
+	
 })
+
+
 
 
 test.afterEach(async({page})=>{
