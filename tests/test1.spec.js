@@ -9,5 +9,5 @@ test('login', async({page})=>{
 
 test.afterEach(async({page})=>{
 	page.close();
-	console.log("close all")
+	console.log("close all windows")
 })
